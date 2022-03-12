@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-image: linear-gradient(rgb(2, 2, 37),rgba(2, 2, 37, 0.801),rgba(68, 2, 68, 0.945));
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+h3{
+  color: rgb(240, 218, 186);
+}
+h2{
+  position: relative;
+  top: 410px;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+#restart {
+  position:relative;
+  top:415px;
+  background: #39d934;
+  background-image: -webkit-linear-gradient(top, #39d934, #4ba112);
+  background-image: -moz-linear-gradient(top, #39d934, #4ba112);
+  background-image: -ms-linear-gradient(top, #39d934, #4ba112);
+  background-image: -o-linear-gradient(top, #39d934, #4ba112);
+  background-image: linear-gradient(to bottom, #39d934, #4ba112);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 6px 14px 6px 14px;
+  text-decoration: none;
+}
+
+#restart:hover {
+  background: #ed1717;
+  background-image: -webkit-linear-gradient(top, #ed1717, #8a0524);
+  background-image: -moz-linear-gradient(top, #ed1717, #8a0524);
+  background-image: -ms-linear-gradient(top, #ed1717, #8a0524);
+  background-image: -o-linear-gradient(top, #ed1717, #8a0524);
+  background-image: linear-gradient(to bottom, #ed1717, #8a0524);
+  text-decoration: none;
+}
+#simon-game{
+  margin: 2%;
+}
+.score{
+  display:none;
+  text-align: center;
+  width: 720px;
+  height:700px;
+  margin: auto;
+  background: url("bomb1.jpg");
+  background-repeat: no-repeat;
+  background-size: 700px 720px;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.bomb{
+  height: 700px;
+  width: auto;
+}
