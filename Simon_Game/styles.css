@@ -14,16 +14,22 @@ h3{
   color: rgb(240, 218, 186);
 }
 h2{
-  position: relative;
-  top: 410px;
+  position: absolute;
+  top: 16rem;
+  left:10rem;
   font-size: xx-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
+#score{
+  position: absolute;
+  top: 19rem;
+  left:8rem;
+}
 
 #restart {
   position:relative;
-  top:415px;
+  top:24rem;
   background: #39d934;
   background-image: -webkit-linear-gradient(top, #39d934, #4ba112);
   background-image: -moz-linear-gradient(top, #39d934, #4ba112);
@@ -52,13 +58,14 @@ h2{
 
 .score{
   display:none;
+  position: relative;
   text-align: center;
-  width: 650px;
-  height:600px;
-  margin: auto;
+  height:32rem;
+  width: 31rem;
+  margin: 0 auto;
   background: url("bomb1.jpg");
   background-repeat: no-repeat;
-  background-size: 600px 650px;
+  background-size:contain;
 }
 .container {
   display: block;
