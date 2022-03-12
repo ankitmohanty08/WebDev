@@ -16,9 +16,9 @@ h3{
 }
 h2{
   position: absolute;
-  top: 82%;
+  top: 245px;
   left:35%;
-  font-size:1rem;
+  font-size:16px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
