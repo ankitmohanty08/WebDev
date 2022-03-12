@@ -1,13 +1,14 @@
 body {
   text-align: center;
   margin: 0;
+  padding: 0;
   background-image: linear-gradient(rgb(2, 2, 37),rgba(2, 2, 37, 0.801),rgba(68, 2, 68, 0.945));
 }
 
 h1{
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
-  margin:  3%;
+  margin:  5%;
   color: #FEF2BF;
 }
 h3{
@@ -15,21 +16,20 @@ h3{
 }
 h2{
   position: absolute;
-  top: 12rem;
-  left:10rem;
+  top: 52%;
+  left:35%;
   font-size: xx-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
 #score{
   position: absolute;
-  top: 15rem;
-  left:8rem;
+  top: 62%;
+  left:32%;
 }
-
 #restart {
   position:relative;
-  top:20rem;
+  top:73.5%;
   background: #39d934;
   background-image: -webkit-linear-gradient(top, #39d934, #4ba112);
   background-image: -moz-linear-gradient(top, #39d934, #4ba112);
@@ -55,13 +55,15 @@ h2{
   background-image: linear-gradient(to bottom, #ed1717, #8a0524);
   text-decoration: none;
 }
-
+#simon-game{
+  margin: 2%;
+}
 .score{
   display:none;
   position: relative;
   text-align: center;
-  height:30rem;
-  width: 29rem;
+  height:42rem;
+  width:40rem;
   margin: 0 auto;
   background: url("bomb1.jpg");
   background-repeat: no-repeat;
