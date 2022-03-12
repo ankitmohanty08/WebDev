@@ -16,20 +16,20 @@ h3{
 }
 h2{
   position: absolute;
-  top: 245px;
+  top: 52%;
   left:35%;
-  font-size:16px;
+  font-size: xx-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
 #score{
   position: absolute;
-  top: 255px;
+  top: 62%;
   left:32%;
 }
 #restart {
-  position:absolute;
-  top:300px;
+  position:relative;
+  top:73.5%;
   background: #39d934;
   background-image: -webkit-linear-gradient(top, #39d934, #4ba112);
   background-image: -moz-linear-gradient(top, #39d934, #4ba112);
@@ -41,7 +41,7 @@ h2{
   border-radius: 26px;
   font-family: Georgia;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 25px;
   padding: 6px 14px 6px 14px;
   text-decoration: none;
 }
@@ -62,8 +62,8 @@ h2{
   display:none;
   position: relative;
   text-align: center;
-  height:42rem;
-  width:40rem;
+  height:650px;
+  width:640px;
   margin: 0 auto;
   background: url("bomb1.jpg");
   background-repeat: no-repeat;
