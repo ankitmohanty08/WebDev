@@ -15,7 +15,7 @@ h3{
 }
 h2{
   position: absolute;
-  top: 14rem;
+  top: 12rem;
   left:10rem;
   font-size: xx-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,13 +23,13 @@ h2{
 }
 #score{
   position: absolute;
-  top: 17rem;
+  top: 15rem;
   left:8rem;
 }
 
 #restart {
   position:relative;
-  top:22rem;
+  top:20rem;
   background: #39d934;
   background-image: -webkit-linear-gradient(top, #39d934, #4ba112);
   background-image: -moz-linear-gradient(top, #39d934, #4ba112);
